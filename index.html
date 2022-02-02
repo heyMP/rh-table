@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="Description" content="Put your description here.">
+  <base href="/">
+  <link href="node_modules/@cpelements/rh-table/dist/rh-table--lightdom.min.css" rel="stylesheet" />
+</head>
+
+<body>
+
+
+
+
+      <cp-documentation id="doc-content" class="rhdocs">
+        <header class="rhdocs__header" id="rhdocs-header">
+          <div class="rhdocs__header__primary-wrapper">
+            <h1><code>rh-table</code></h1>
+          </div>
+        </header>
+        <article class="rhdocs-content" id="rhdocs-content">
+          <rh-table sortable="1,3">
+            <table class="tableblock frame-all grid-all spread">
+              <caption class="title">
+                Applications
+              </caption>
+              <colgroup>
+                <col style="width: 25%" />
+                <col style="width: 25%" />
+                <col style="width: 50%" />
+              </colgroup>
+              <thead>
+                <tr>
+                  <th
+                    class="tableblock halign-left valign-top"
+                    id="table4_th_name"
+                    scope="col"
+                  >
+                    Name
+                  </th>
+                  <th
+                    class="tableblock halign-left valign-top"
+                    id="table4_th_category"
+                    scope="col"
+                  >
+                    Category
+                  </th>
+                  <th
+                    class="tableblock halign-left valign-top"
+                    id="table4_th_description"
+                    scope="col"
+                  >
+                    Description
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td
+                    class="tableblock halign-left valign-top"
+                    headers="table4_th_name"
+                  >
+                    <p class="tableblock">Firefox</p>
+                  </td>
+                  <td
+                    class="tableblock halign-left valign-top"
+                    headers="table4_th_category"
+                  >
+                    <p class="tableblock">Browser</p>
+                  </td>
+                  <td
+                    class="tableblock halign-left valign-top"
+                    headers="table4_th_description"
+                  >
+                    <p class="tableblock">
+                      Mozilla Firefox is an open-source web browser. It’s designed
+                      for standards compliance, performance, portability.
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    class="tableblock halign-left valign-top"
+                    headers="table4_th_name"
+                  >
+                    <p class="tableblock">Arquillian</p>
+                  </td>
+                  <td
+                    class="tableblock halign-left valign-top"
+                    headers="table4_th_category"
+                  >
+                    <p class="tableblock">Testing</p>
+                  </td>
+                  <td
+                    class="tableblock halign-left valign-top"
+                    headers="table4_th_description"
+                  >
+                    <p class="tableblock">
+                      An innovative and highly extensible testing platform.
+                      Empowers developers to easily create real, automated tests.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </rh-table>
+  
+          <rh-table>
+            <table class="tableblock frame-all grid-all spread">
+              <caption class="title">
+                Table 1. Supported ACL permissions
+              </caption>
+              <colgroup>
+                <col style="width: 25%" />
+                <col style="width: 25%" />
+                <col style="width: 25%" />
+                <col style="width: 25%" />
+              </colgroup>
+              <tbody>
+                <tr>
+                  <th class="tableblock halign-left valign-top">
+                    <p class="tableblock">Resource type</p>
+                  </th>
+                  <th class="tableblock halign-left valign-top">
+                    <p class="tableblock">Resource identifier</p>
+                  </th>
+                  <th class="tableblock halign-left valign-top">
+                    <p class="tableblock">Access type</p>
+                  </th>
+                  <th class="tableblock halign-left valign-top">
+                    <p class="tableblock">Operations</p>
+                  </th>
+                </tr>
+                <tr>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock"><code>Consumer group</code></p>
+                    <p class="tableblock">
+                      (For consumer group access to a resource)
+                    </p>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <ul>
+                      <li>
+                        <p><code>Starts with</code></p>
+                      </li>
+                      <li>
+                        <p><code>Is</code></p>
+                      </li>
+                    </ul>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <ul>
+                      <li>
+                        <p><code>Allow</code></p>
+                      </li>
+                      <li>
+                        <p><code>Deny</code></p>
+                      </li>
+                    </ul>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <ul>
+                      <li>
+                        <p><code>All</code></p>
+                      </li>
+                      <li>
+                        <p><code>Read</code></p>
+                      </li>
+                      <li>
+                        <p><code>Delete</code></p>
+                      </li>
+                      <li>
+                        <p><code>Describe</code></p>
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock"><code>Topic</code></p>
+                    <p class="tableblock">(For access to a topic)</p>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <ul>
+                      <li>
+                        <p><code>Starts with</code></p>
+                      </li>
+                      <li>
+                        <p><code>Is</code></p>
+                      </li>
+                    </ul>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <ul>
+                      <li>
+                        <p><code>Allow</code></p>
+                      </li>
+                      <li>
+                        <p><code>Deny</code></p>
+                      </li>
+                    </ul>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <ul>
+                      <li>
+                        <p><code>All</code></p>
+                      </li>
+                      <li>
+                        <p><code>Read</code></p>
+                      </li>
+                      <li>
+                        <p><code>Write</code></p>
+                      </li>
+                      <li>
+                        <p><code>Create</code></p>
+                      </li>
+                      <li>
+                        <p><code>Delete</code></p>
+                      </li>
+                      <li>
+                        <p><code>Alter</code></p>
+                      </li>
+                      <li>
+                        <p><code>Alter configs</code></p>
+                      </li>
+                      <li>
+                        <p><code>Describe</code></p>
+                      </li>
+                      <li>
+                        <p><code>Describe configs</code></p>
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock"><code>Transactional ID</code></p>
+                    <p class="tableblock">(For producer access to a resource)</p>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <ul>
+                      <li>
+                        <p><code>Starts with</code></p>
+                      </li>
+                      <li>
+                        <p><code>Is</code></p>
+                      </li>
+                    </ul>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <ul>
+                      <li>
+                        <p><code>Allow</code></p>
+                      </li>
+                      <li>
+                        <p><code>Deny</code></p>
+                      </li>
+                    </ul>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <ul>
+                      <li>
+                        <p><code>All</code></p>
+                      </li>
+                      <li>
+                        <p><code>Write</code></p>
+                      </li>
+                      <li>
+                        <p><code>Describe</code></p>
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock"><code>Kafka instance</code></p>
+                    <p class="tableblock">
+                      (For access to Kafka instance permissions in ACLs)
+                    </p>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock">None</p>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <ul>
+                      <li>
+                        <p><code>Allow</code></p>
+                      </li>
+                      <li>
+                        <p><code>Deny</code></p>
+                      </li>
+                    </ul>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <ul>
+                      <li>
+                        <p><code>Alter</code></p>
+                      </li>
+                      <li>
+                        <p><code>Describe</code></p>
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </rh-table>
+  
+          <rh-table>
+            <table class="tableblock frame-all grid-all spread">
+              <colgroup>
+                <col style="width: 33.3333%" />
+                <col style="width: 33.3333%" />
+                <col style="width: 33.3334%" />
+              </colgroup>
+              <tbody>
+                <tr>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock"><strong>Permission</strong></p>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock"><strong>Symbolic value</strong></p>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock"><strong>Octal value</strong></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock">No permission</p>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock">---</p>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock">0</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock">Execute</p>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock">--x</p>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock">1</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock">Write</p>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock">-w-</p>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock">2</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock">Write and execute</p>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock">-wx</p>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock">3</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock">Read</p>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock">r--</p>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock">4</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock">Read and execute</p>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock">r-x</p>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock">5</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock">Read and write</p>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock">rw-</p>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock">6</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock">Read, write, execute</p>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock">rwx</p>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock">7</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </rh-table>
+  
+          <rh-table>
+            <table class="tableblock frame-all grid-all spread">
+              <colgroup>
+                <col style="width: 33.3333%" />
+                <col style="width: 33.3333%" />
+                <col style="width: 33.3334%" />
+              </colgroup>
+              <tbody>
+                <tr>
+                  <td class="tableblock halign-left valign-top"></td>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock"><strong>Symbolic value</strong></p>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock"><strong>Octal value</strong></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock"><strong>Base permission</strong></p>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock">rwxrwxrwx</p>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock">777</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock"><strong>Umask</strong></p>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock">rwxr-xr-x</p>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock">022</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock"><strong>Default permission</strong></p>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock">rwxr-xr-x</p>
+                  </td>
+                  <td class="tableblock halign-left valign-top">
+                    <p class="tableblock">755</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </rh-table>
+        </article>
+      </cp-documentation>
+
+
+
+
+  <script type="module" src="./out-tsc/src/rh-element.js"></script>
+</body>
+
+</html>

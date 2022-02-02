@@ -1,0 +1,10 @@
+diff --git a/node_modules/@cpelements/rh-table/dist/rh-table.js b/node_modules/@cpelements/rh-table/dist/rh-table.js
+index 1671629..8c576f1 100644
+--- a/node_modules/@cpelements/rh-table/dist/rh-table.js
++++ b/node_modules/@cpelements/rh-table/dist/rh-table.js
+@@ -1,4 +1,4 @@
+-import PFElement from '../../@patternfly/pfelement/dist/pfelement.js';
++import PFElement from '@patternfly/pfelement/dist/pfelement.js';
+ 
+ /*!
+  * PatternFly Elements: RhTable 0.0.1
